@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-navbar color="theme" [hidden]="!buttonClicked2">
+    <button ion-button menuToggle>
+      <ion-icon name="menu" color="light"></ion-icon>
+    </button>
+    <ion-title>QUIZ</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding class="bg">
+  <ion-list class="tajuk">
+    <ion-row>
+     <ion-col col-9><h2>Subject Name</h2></ion-col>
+     <ion-col col-3><img item-right class="imej" src="assets/imgs/trophy.png"></ion-col>
+    </ion-row>
+    <hr>
+   </ion-list>
+  <ion-list>
+    <ion-item class="bg-transparent">
+      <ion-label floating>Title</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+    <ion-item class="bg-transparent">
+      <ion-label floating>Instruction</ion-label>
+      <ion-textarea
+      rows="6"
+      ></ion-textarea>
+    </ion-item>
+    <ion-item class="bg-transparent">
+      <ion-label fixed>Due Date</ion-label>
+      <ion-input type="date"></ion-input>
+    </ion-item>
+    <br><br>
+  </ion-list>
+    <button ion-button class="button-full" color="theme">Submit</button>
+</ion-content>

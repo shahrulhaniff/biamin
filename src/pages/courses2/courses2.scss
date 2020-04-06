@@ -1,0 +1,23 @@
+page-courses2 {
+    .bg{
+        background: url("../assets/imgs/Bg2.png") no-repeat center center fixed; 
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    .tajuk{
+        padding-top: 3vh;
+    }
+    .imej{
+        border-radius: 1px;
+        height:50px;
+        width:50px;
+      }
+    .button-center {
+        background-color: #00d9e0;
+        height: 8%;
+        width: 90%;
+        top: 5vh;
+        display: block;
+        margin: auto;
+    }
+}

@@ -1,0 +1,17 @@
+[1] UPDATE VERSION 
+{
+current apple : 1.0.2 
+current android : 0.0.1
+}
+
+[2] ionic cordova build --release android
+
+[3] pastikan copy android-release-unsigned.apk kat luar kalau tak dia tak jumpa jar
+
+[4] jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore myblockcert-release-key.keystore app-release-unsigned.apk releaseNewKey
+
+pass : 040471       
+CURRENT VERSION :0.0.1 
+id : myblockcert.unisza.edu.my
+
+[5] zipalign -v 4 app-release-unsigned.apk myblockcerts.apk

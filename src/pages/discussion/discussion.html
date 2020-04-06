@@ -1,0 +1,62 @@
+<ion-header>
+  <ion-navbar color="theme" [hidden]="!buttonClicked2">
+    <button ion-button menuToggle>
+      <ion-icon name="menu" color="light"></ion-icon>
+    </button>
+    <ion-title>DISCUSSION</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content class="bg">
+  <ion-card>
+    <ion-item>
+      <ion-avatar item-start>
+        <img src="assets/imgs/ruler.jpg">
+      </ion-avatar>
+      <h2>Marty McFly</h2>
+      <p>November 5, 2019</p>
+    </ion-item>
+    <img src="assets/imgs/math.png">
+    <ion-card-content>
+      <p>Wait a minute. Wait a minute, Doc. Uhhh... Are you telling me that you built a time machine... out of a DeLorean?! Whoa. This is heavy.</p>
+    </ion-card-content>
+    <ion-row>
+      <ion-col>
+        <button ion-button icon-start clear small color="theme">
+          <ion-icon name="thumbs-up"></ion-icon>
+          <div>12 Likes</div>
+        </button>
+      </ion-col>
+      <ion-col>
+        <button ion-button icon-start clear small color="theme">
+          <ion-icon name="text"></ion-icon>
+          <div>4 Comments</div>
+        </button>
+      </ion-col>
+      <ion-col align-self-center text-center>
+        <ion-note>
+          11h ago
+        </ion-note>
+      </ion-col>
+    </ion-row>
+  </ion-card>
+
+  <ion-list padding>
+    <ion-item>
+      <ion-avatar item-start>
+        <img src="assets/imgs/pp.png">
+      </ion-avatar>
+      <h2>Finn</h2>
+      <h3>Don't Know What To Do!</h3>
+      <p>I've had a pretty messed up day. If we just...</p>
+    </ion-item>
+    <ion-item>
+      <ion-avatar item-start>
+        <img src="assets/imgs/pp.png">
+      </ion-avatar>
+      <h2>Jeremy</h2>
+      <h3>Thats easy, let me explain to you</h3>
+      <p>The x must pull the y so the y will fall...</p>
+    </ion-item>
+  </ion-list>
+
+</ion-content>
